@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<title>Santhoshi's Blog</title>
+<style>
+body {
+background-color: #f5f5f5;
+font-family: Arial, sans-serif;
+color: #333;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #00d9ff;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+nav {
+background-color: #f0f0f0;
+padding: 10px 0;
+}
+
+nav ul.navbar-nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+nav ul.navbar-nav li {
+display: inline;
+margin-right: 20px;
+}
+
+section {
+padding: 50px 20px;
+text-align: center;
+}
+
+h2 {
+color: #0095ff;
+}
+
+.blog-posts {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
+}
+
+.blog-post {
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+}
+
+footer {
+background-color: #00aaff;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+}
+
+.image-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-top: 20px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+</style>
+</head>
+<body>
+<header>
+<div id="typed">Bhavagna's Blog</div>
+</header>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="container-fluid">
+<ul class="navbar-nav me-auto me-auto">
+<li class="nav-item"><a href="#home" style="color: #333;">Home</a></li>
+<li class="nav-item"><a href="#about" style="color: #333;">About</a></li>
+<li class="nav-item"><a href="#blog" style="color: #333;">Blog</a></li>
+<li class="nav-item"><a href="#contact" style="color: #333;">Contact</a></li>
+</ul>
+</div>
+</nav>
+<section id="home">
+<h2>Welcome to My Bhavagna's Blog!</h2>
+<p>This is the place where I share my favorites.</p>
+</section>
+<section id="about">
+<h2>About Me</h2>
+<p>Hello, I'm bhavagna reddy, in this blog I will share about my favorites. I am a foodie. I like to eat briyani. I love to travel and explore places.</p>
+</section>
+<section id="blog">
+<h2>MY MEMORIES</h2>
+<div class="blog-posts">
+<div class="blog-post">
+<h3>My Favorite Food</h3>
+<p>Briyani is my favorite food. I love the aroma and taste of briyani. It is a traditional dish from the Indian subcontinent, made with basmati rice, yogurt, and spices.</p>
+</div>
+<div class="blog-post">
+<h3>My Favorite Travel Destination</h3>
+<p>My favorite travel destination is Paris, France. I love the architecture, the culture, and the food. It is a beautiful city with a rich history.</p>
+</div>
+<div class="blog-post">
+<h3>My Favorite Movie</h3>
+<p>My favorite movie is "Hunuman". It is a powerful drama film written and directed by Prasanth Varma.</p>
+</div>
+</div>
+</section>
+<section id="image-section">
+<div class="image-container">
+<a href="memories.html">
+<img src="c:\Users\bhavnaga\Downloads\img1.png" alt="food image">
+<img src="img1.png" alt="traveling Image">
+</a>
+<a href="memories.html">
+<img src="c:\Users\bhavnaga\Downloads\img.png" alt="movie image">
+</a>
+</div>
+</section>
+<section id="contact">
+<h2>Contact Me</h2>
+<p>You can contact us at bhavgnareddy@gmail.com</p>
+</section>
+<footer>
+<p>&copy; 2024 Bhavagna's Blog. All rights reserved.</p>
+</footer>
+<!--<script src="index.js"></script>-->
+<script>
+var options = {
+strings: ["Bhavagna's Blog"],
+typeSpeed: 150, // Adjusted typing speed to make it appear slower
+startDelay: 1000, // Delay before starting to type the text
+backSpeed: 50, // No erasing effect
+loop: true // Loop through the strings
+};
+var typed = new Typed("#typed", options);
+</script>
+</body>
+</html>
